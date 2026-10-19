@@ -1,0 +1,24 @@
+{
+  "name": "pop100",
+  "description": "Эксп. 3: как base_fixed, но pop_size=100",
+  "algorithm": "ga",
+  "budget": 100000,
+  "target": 1e-08,
+  "pop_size": 100,
+  "n_elite": 2,
+  "selection": {
+    "type": "tournament",
+    "k": 3
+  },
+  "crossover": {
+    "type": "blx",
+    "alpha": 0.5,
+    "pc": 0.9
+  },
+  "mutation": {
+    "type": "gauss_fixed",
+    "sigma": 2.0,
+    "pm": "1/d"
+  },
+  "bounds": "reflect"
+}

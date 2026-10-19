@@ -1,0 +1,25 @@
+{
+  "algorithm": "ga",
+  "instance": "lab2/data/instance.json",
+  "budget": 20000,
+  "pop_size": 50,
+  "n_elite": 2,
+  "init_p": 0.5,
+  "selection": {
+    "type": "tournament",
+    "k": 3
+  },
+  "crossover": {
+    "type": "two_point",
+    "pc": 0.9
+  },
+  "mutation": {
+    "type": "bitflip",
+    "pm": "1/n"
+  },
+  "name": "repair_two_point",
+  "description": "жадный ремонт (ламарковский), двухточечный кроссовер; pop=50, турнир k=3, элитизм 2, pc=0.9, pm=1/n, бюджет 2e4",
+  "constraints": {
+    "type": "repair"
+  }
+}

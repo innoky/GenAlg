@@ -1,0 +1,8 @@
+{
+  "name": "random_feasible",
+  "algorithm": "random_feasible",
+  "instance": "lab2/data/instance.json",
+  "budget": 20000,
+  "batch": 48,
+  "description": "случайный допустимый поиск: случайный порядок предметов + добавление, пока помещается; бюджет 2e4"
+}

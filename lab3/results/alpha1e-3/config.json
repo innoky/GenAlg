@@ -1,0 +1,23 @@
+{
+  "name": "alpha1e-3",
+  "description": "ГП, штраф 1e-3 за узел (база)",
+  "algorithm": "gp",
+  "data": "lab3/data",
+  "budget": 100000,
+  "pop_size": 500,
+  "n_elite": 2,
+  "alpha": 0.001,
+  "max_depth": 8,
+  "init_depth": [
+    2,
+    5
+  ],
+  "selection": {
+    "type": "tournament",
+    "k": 5
+  },
+  "pc": 0.9,
+  "p_subtree": 0.1,
+  "p_point": 0.2,
+  "solved_test_nrmse": 0.01
+}

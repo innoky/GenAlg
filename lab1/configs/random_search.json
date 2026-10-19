@@ -1,0 +1,8 @@
+{
+  "name": "random_search",
+  "description": "Эксп. 4: равномерный случайный поиск, тот же бюджет",
+  "algorithm": "random",
+  "budget": 100000,
+  "target": 1e-08,
+  "batch": 50
+}

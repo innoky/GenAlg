@@ -1,0 +1,25 @@
+{
+  "name": "selfadaptive_sigma",
+  "description": "Эксп. 2: как base_fixed, но σ самоадаптивная (логнормальная, личная σ особи, σ0=2, τ=1/√d)",
+  "algorithm": "ga",
+  "budget": 100000,
+  "target": 1e-08,
+  "pop_size": 50,
+  "n_elite": 2,
+  "selection": {
+    "type": "tournament",
+    "k": 3
+  },
+  "crossover": {
+    "type": "blx",
+    "alpha": 0.5,
+    "pc": 0.9
+  },
+  "mutation": {
+    "type": "gauss_selfadaptive",
+    "sigma0": 2.0,
+    "pm": "1/d",
+    "sigma_min": 1e-12
+  },
+  "bounds": "reflect"
+}

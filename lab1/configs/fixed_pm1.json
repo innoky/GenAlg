@@ -1,0 +1,24 @@
+{
+  "name": "fixed_pm1",
+  "description": "Эксп. 2б: как base_fixed, но мутируются все гены (pm=1)",
+  "algorithm": "ga",
+  "budget": 100000,
+  "target": 1e-08,
+  "pop_size": 50,
+  "n_elite": 2,
+  "selection": {
+    "type": "tournament",
+    "k": 3
+  },
+  "crossover": {
+    "type": "blx",
+    "alpha": 0.5,
+    "pc": 0.9
+  },
+  "mutation": {
+    "type": "gauss_fixed",
+    "sigma": 2.0,
+    "pm": 1.0
+  },
+  "bounds": "reflect"
+}

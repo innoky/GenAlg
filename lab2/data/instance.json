@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "seed": 527,
+    "low": 5,
+    "high": 60,
+    "coef_mass": 0.8,
+    "coef_volume": 0.8,
+    "noise_sd": 12.0,
+    "cap_ratio": 0.35,
+    "n": 40,
+    "procedure": "w,v ~ U{5..60}; p = max(1, round(0.8w + 0.8v + N(0,12^2))); W = round(0.35*sum w), V = round(0.35*sum v)"
+  },
+  "cap_mass": 442,
+  "cap_volume": 478,
+  "items": [
+    {
+      "id": 0,
+      "mass": 55,
+      "volume": 60,
+      "value": 102
+    },
+    {
+      "id": 1,
+      "mass": 33,
+      "volume": 42,
+      "value": 50
+    },
+    {
+      "id": 2,
+      "mass": 27,
+      "volume": 25,
+      "value": 51
+    },
+    {
+      "id": 3,
+      "mass": 31,
+      "volume": 39,
+      "value": 55
+    },
+    {
+      "id": 4,
+      "mass": 55,
+      "volume": 19,
+      "value": 60
+    },
+    {
+      "id": 5,
+      "mass": 23,
+      "volume": 26,
+      "value": 31
+    },
+    {
+      "id": 6,
+      "mass": 60,
+      "volume": 29,
+      "value": 72
+    },
+    {
+      "id": 7,
+      "mass": 34,
+      "volume": 23,
+      "value": 57
+    },
+    {
+      "id": 8,
+      "mass": 32,
+      "volume": 58,
+      "value": 70
+    },
+    {
+      "id": 9,
+      "mass": 28,
+      "volume": 53,
+      "value": 46
+    },
+    {
+      "id": 10,
+      "mass": 50,
+      "volume": 57,
+      "value": 58
+    },
+    {
+      "id": 11,
+      "mass": 39,
+      "volume": 34,
+      "value": 71
+    },
+    {
+      "id": 12,
+      "mass": 18,
+      "volume": 15,
+      "value": 26
+    },
+    {
+      "id": 13,
+      "mass": 57,
+      "volume": 26,
+      "value": 50
+    },
+    {
+      "id": 14,
+      "mass": 34,
+      "volume": 30,
+      "value": 34
+    },
+    {
+      "id": 15,
+      "mass": 51,
+      "volume": 53,
+      "value": 78
+    },
+    {
+      "id": 16,
+      "mass": 17,
+      "volume": 47,
+      "value": 63
+    },
+    {
+      "id": 17,
+      "mass": 25,
+      "volume": 14,
+      "value": 43
+    },
+    {
+      "id": 18,
+      "mass": 31,
+      "volume": 31,
+      "value": 59
+    },
+    {
+      "id": 19,
+      "mass": 22,
+      "volume": 24,
+      "value": 35
+    },
+    {
+      "id": 20,
+      "mass": 23,
+      "volume": 51,
+      "value": 78
+    },
+    {
+      "id": 21,
+      "mass": 24,
+      "volume": 45,
+      "value": 82
+    },
+    {
+      "id": 22,
+      "mass": 14,
+      "volume": 26,
+      "value": 37
+    },
+    {
+      "id": 23,
+      "mass": 20,
+      "volume": 36,
+      "value": 65
+    },
+    {
+      "id": 24,
+      "mass": 26,
+      "volume": 43,
+      "value": 78
+    },
+    {
+      "id": 25,
+      "mass": 23,
+      "volume": 25,
+      "value": 40
+    },
+    {
+      "id": 26,
+      "mass": 42,
+      "volume": 29,
+      "value": 52
+    },
+    {
+      "id": 27,
+      "mass": 38,
+      "volume": 57,
+      "value": 92
+    },
+    {
+      "id": 28,
+      "mass": 26,
+      "volume": 9,
+      "value": 29
+    },
+    {
+      "id": 29,
+      "mass": 25,
+      "volume": 52,
+      "value": 60
+    },
+    {
+      "id": 30,
+      "mass": 9,
+      "volume": 24,
+      "value": 8
+    },
+    {
+      "id": 31,
+      "mass": 16,
+      "volume": 45,
+      "value": 35
+    },
+    {
+      "id": 32,
+      "mass": 41,
+      "volume": 12,
+      "value": 36
+    },
+    {
+      "id": 33,
+      "mass": 33,
+      "volume": 35,
+      "value": 51
+    },
+    {
+      "id": 34,
+      "mass": 10,
+      "volume": 34,
+      "value": 29
+    },
+    {
+      "id": 35,
+      "mass": 15,
+      "volume": 58,
+      "value": 71
+    },
+    {
+      "id": 36,
+      "mass": 31,
+      "volume": 7,
+      "value": 20
+    },
+    {
+      "id": 37,
+      "mass": 40,
+      "volume": 22,
+      "value": 49
+    },
+    {
+      "id": 38,
+      "mass": 59,
+      "volume": 13,
+      "value": 56
+    },
+    {
+      "id": 39,
+      "mass": 25,
+      "volume": 38,
+      "value": 71
+    }
+  ]
+}
